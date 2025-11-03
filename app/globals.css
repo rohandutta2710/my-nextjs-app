@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-color {
+  color: cyan;
+}
+.header-hover-link:hover {
+  color: cyan;
+}
+
+/* contact */
+.contact-heading {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form .contact-div {
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px grey;
+}
+
+.contact-form textarea {
+  border: 2px solid lab(31 56.7 -64.26);;
+}
+.contact-form .btn {
+  /* background-color: lab(31 56.7 -64.26); */
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+.form-control {
+  border: 2px solid lab(31 56.7 -64.26);
+  max-width: 100%;
+}
+@media only screen and (max-width: 800px) {
+  .contact-form form {
+    width: 100%;
+    padding: 25px;
+  }
+}
+
+.contact-div input::placeholder,
+.contact-div textarea::placeholder {
+  color: lab(31 56.7 -64.26);
+}
+textarea {
+  border-color: lab(31 56.7 -64.26);
+}
+.contact-div input:focus,.contact-div textarea:focus {
+  border: 2px solid cyan;
+}
