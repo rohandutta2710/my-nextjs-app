@@ -8,7 +8,7 @@ export default function Contact() {
         setFormValue({ ...formValue, [e.target.name]: e.target.value });
     }
     const handleContactSubmit = () => {
-        if (formValue.name === "" || formValue.email === "" || formValue.message === "" || formValue.name === undefined || formValue.email === undefined || formValue.undefined === null) {
+        if (formValue.name === "" || formValue.email === "" || formValue.message === "" || formValue.name === undefined || formValue.email === undefined || formValue.message === undefined) {
             alert("Please enter all the detail to contact you.")
         }
         else {
