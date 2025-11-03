@@ -39,7 +39,7 @@ export default function RootLayout({
         <header className="bg-purple-800 shadow-sm border-b border-gray-200">
           <nav className="max-w-6xl mx-auto">
             <div className="flex items-center justify-between">
-              <Image src="/RDXNextApp.jpeg" alt="RDX Next App" width={193} height={0}></Image>
+              <Image src="/RDXNextApp.jpeg" alt="RDX Next App" loading="eager" width={193} height={0}></Image>
               <div className="flexs items-center gap-6">
                 <Link href={"/"} className={"text-base text-white header-hover-link font-medium transition-colors pr-6 " + activeLink.home} title="home" onClick={() => { selectedTab("home") }}>Home</Link>
                 <Link href={"/about"} className={" text-base text-white header-hover-link font-medium transition-colors  pr-6 " + activeLink.about} title="about" onClick={() => { selectedTab("about") }}>About</Link>
