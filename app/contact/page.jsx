@@ -24,7 +24,7 @@ export default function Contact() {
                 </h1>
                 <form>
                     <div className="form-floating mb-3">
-                        <input type="text" className="form-control w-full p-2 rounded-sm  text-purple-800 focus:outline-none" id="name" placeholder="Name" name="name" value={formValue.name === undefined ? "" : formValue.Name} onChange={handleFormInputs}></input>
+                        <input type="text" className="form-control w-full p-2 rounded-sm  text-purple-800 focus:outline-none" id="name" placeholder="Name" name="name" value={formValue.name === undefined ? "" : formValue.name} onChange={handleFormInputs}></input>
                     </div>
                     <div className="form-floating mb-3">
                         <input type="email" className="form-control w-full p-2 rounded-sm   text-purple-800 focus:outline-none" id="email" placeholder="Email Address" name="email" value={formValue.email === undefined ? "" : formValue.email} onChange={handleFormInputs}></input>
