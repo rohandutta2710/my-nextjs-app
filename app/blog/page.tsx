@@ -2,27 +2,27 @@ import Link from "next/link";
 const blogList = [{
     id: 1,
     title: "Meditation & Medication",
-    excerpt: "Meditation and medication both play important roles in healing. While medication...",
+    excerpt: "Meditation plays a important role in life as it keeps our body calm and...",
     type: "Meditation",
     releaseAt: "27 Oct 2025",
     postedBy: "Rohan Dutta",
-    content: "Meditation and medication both play important roles in healing.While medication treats physical symptoms through drugs, meditation calms the mind and reduces stress naturally.Medication can provide quick relief, whereas meditation builds long-term emotional balance.Together, they support both the body and the mind in different but complementary ways.Using meditation alongside medication often leads to a more holistic approach to health and well-being."
+    content: "Meditation plays a important role in life as it keeps our body calm and act as a medication to heal much faster from various disease. Meditation help us to be fit mentally and as our mind will be fit then it will inspire us to do daily activity happily. Also, meditation helps to manage the stress on work which improves our concentration in our workspace. There are lot of advantages of meditation therefore person should adapt it in day to day life for everybody's well being."
 }, {
     id: 2,
-    title: "The Art of Traveling",
-    excerpt: "The Art of Traveling teaches us to explore the world with curiosity and an open heart...",
+    title: "Art of Traveling",
+    excerpt: "The Art of travelling helps us to grow in all aspect of life and...",
     type: "Travelling",
     releaseAt: "02 Nov 2025",
     postedBy: "Ben Affleck",
-    content: "The Art of Traveling teaches us to explore the world with curiosity and an open heart.It is not just about visiting new places, but about understanding cultures and collecting meaningful experiences.Through the art of traveling, we learn patience, adaptability, and appreciation for diversity.Every journey becomes a lesson, shaping our perspective and enriching our memories.Ultimately, The Art of Traveling reminds us that the world is full of beauty waiting to be discovered."
+    content: "Art of travelling helps us to grow in all aspect of life and it gives us idea to behold every part of nature along with different culture followed by humans around the globe. Travelling also makes us happy and enjoy in our leisure timing. Travelling is used to discover the creatures exist on earth and observer them. One should be more experienced to travel to some of the places as person can face multiple issues like wild animals, compass dysfunctional etc. Companions can make travelling more comfortable and enjoyable."
 }, {
     id: 3,
     title: "Education for a Brighter Tomorrow",
-    excerpt: "Education for a Brighter Tomorrow highlights the power of learning to shape a better future...",
+    excerpt: "Education for brighter tomorrow indicates that education is crucial to have...",
     type: "Education",
     releaseAt: "20 Oct 2025",
     postedBy: "Peter Parker",
-    content: "Education for a Brighter Tomorrow highlights the power of learning to shape a better future. It reminds us that knowledge empowers individuals to overcome challenges and create new opportunities. Through education, young minds develop critical thinking, creativity, and confidence. Education for a brighter tomorrow also means preparing students for a world that is constantly changing. It encourages innovation, responsibility, and lifelong learning. Ultimately, Education for a Brighter Tomorrow shows that investing in learning today builds a stronger, more successful future for everyone."
+    content: "Education for brighter tomorrow indicates that education is crucial to have good future as education gives us idea to behold the things in the world to a different angle. Education is not just reading the books and all but it teaches us to grow in all aspect of life so that we could face all the problems of life in a good manner. Education helps to earn our own livelihood in future which is benficial for an individual and family. Investment in education in today can make our future better."
 }];
 
 function Blogs() {
